@@ -23,6 +23,7 @@ public class Primos {
                     }
                 }
             }
+
 // ¿Cuántos primos hay?
             int cuenta = 0;
             for (i=0; i<dim; i++) {
