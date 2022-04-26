@@ -75,7 +75,7 @@ public class Primos {
     /**
      * @param esPrimo Determina si es primo o no
      * @param dim Determina el tamaño del array
-     * @return
+     * @return Devuelve si es primo o no mediante un boolean
      */
     //Criba
     public boolean [] criba(boolean [] esPrimo, int dim){
@@ -89,6 +89,11 @@ public class Primos {
         }return esPrimo;
     }
 
+    /**
+     * @param dim Determina el tamaño del array
+     * @param esPrimo Determina si es primo o no
+     * @return Devuelve la inicialización del array
+     */
     public boolean [] inicializarArray(int dim,boolean[] esPrimo){
         //Inicializar el array
         for (int i=0; i<dim; i++) {
